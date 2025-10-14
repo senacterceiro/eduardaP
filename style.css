@@ -5,6 +5,35 @@ body {
   font-family: "IBM Plex Serif", serif;
 }
 
+/* Reset básico */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* Estilo do menu */
+
+#menu-h ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 10px 0;
+}
+#menu-h ul li {
+   margin: 0 15px;
+}
+#menu-h ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 5px 10px;
+   transition: background-color 0.3s ease;
+}
+#menu-h ul li a:hover {
+   background-color: #555;
+   border-radius: 5px;
+}
+
 h1 {
   font-family: Lobster, Arial;
   font-size: 70px;
